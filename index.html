@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#152b43">
+  <meta name="description" content="Emine'ye özel, Twitter'da başlayan bir dostluk hikâyesi.">
+  <title>Bir Bildirimle Başladı — Emine'ye Özel</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient" aria-hidden="true">
+    <span>♡</span><span>✦</span><span>♡</span><span>✧</span><span>♡</span>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#baslangic" aria-label="Başlangıca dön" id="brandHome">
+      <span class="brand-mark">t</span>
+      <span>bir bildirimle başladı</span>
+    </a>
+    <div class="topbar-note"><span class="online-dot"></span> EMİNE'YE ÖZEL • BEST FRIEND EDITION</div>
+  </header>
+
+  <main class="site-wrap">
+    <section class="intro-strip" aria-label="Hikâye bilgisi">
+      <span class="tiny-label">KÜÇÜK BİR DİJİTAL ANI DEFTERİ</span>
+      <span class="intro-date">Twitter'dan gerçek hayata, bol kahkahalı bir dostluk. 💙</span>
+    </section>
+
+    <div class="progress-area">
+      <div class="progress-copy"><span id="stepName">Başlangıç</span><span id="stepCount">1 / 8</span></div>
+      <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    </div>
+
+    <div class="story-shell">
+      <!-- 0: Cover -->
+      <section class="story-page active" data-title="Başlangıç" id="page-0">
+        <div class="cover-layout">
+          <div class="cover-copy">
+            <div class="stamp-row"><span class="stamp">✦ ÖZEL ARŞİV</span><span class="handwritten">Emine için</span></div>
+            <p class="eyebrow">BİR ZAMANLAR, TWITTER'DA...</p>
+            <h1>Bir bildirimle<br><em>başladı.</em></h1>
+            <p class="lead">Bir mesaj, biraz kahkaha, bir otobüs durağı, bamya ve bazlama… Sonra da iyi ki dediğimiz kocaman bir dostluk.</p>
+            <button class="primary-btn" id="startBtn">Hikâyemizi başlat <span>→</span></button>
+            <p class="micro-note">Bu küçük site, güzel anılarımıza özel hazırlandı. ♡</p>
+          </div>
+          <div class="cover-art" aria-hidden="true">
+            <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+            <div class="phone-card">
+              <div class="phone-top"><span></span><span></span><span></span></div>
+              <div class="phone-bird">♥</div>
+              <div class="notif-line wide"></div><div class="notif-line"></div><div class="notif-line short"></div>
+              <div class="notif-bubble">1 yeni mesaj 💬</div>
+            </div>
+            <span class="float-star star-a">✦</span><span class="float-star star-b">♡</span><span class="float-star star-c">✧</span>
+            <div class="cover-caption">online friendship<br>turned into real life</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 1: Twitter -->
+      <section class="story-page" data-title="Twitter'da tanışmamız" id="page-1">
+        <div class="page-heading"><span class="chapter">01 / İLK MESAJ</span><span class="chapter-icon">𝕏</span></div>
+        <h2>Her şey bir mesajla başladı.</h2>
+        <p class="page-lead">Birbirimizi Twitter'da tanıdık. Sonra konuşmalar uzadı, kahkahalar çoğaldı ve internetten tanıdığım biri yavaş yavaş en sevdiğim insanlardan biri oldu.</p>
+        <div class="dm-window">
+          <div class="dm-top"><span class="back-arrow">‹</span><div class="avatar-mini">E</div><div><strong>Emine</strong><small>Mesaj isteği • eski güzel günler</small></div><span class="dots">•••</span></div>
+          <div class="dm-date">İLK MESAJIMIZ</div>
+          <div class="message-row"><div class="avatar">E</div><div class="message incoming">Seni linçlediler ama ben de öyle düşünüyorum çok haklısın. 😂💙<span class="message-time">ilk mesajlardan biri</span></div></div>
+          <div class="message-row mine"><div class="message outgoing">AHSHSHSHS, sonunda beni anlayan biri! 😭</div><div class="avatar mine-avatar">♡</div></div>
+          <div class="dm-foot"><span>♡</span><span>Mesajlarımızın devamı kahkaha...</span><span>➤</span></div>
+        </div>
+        <div class="memory-note"><span>✎</span> Kim bilebilirdi ki bu mesaj, “best friendim” diyeceğim bir dostluğun başlangıcı olacaktı?</div>
+      </section>
+
+      <!-- 2: Bus stop -->
+      <section class="story-page" data-title="İlk buluşma" id="page-2">
+        <div class="page-heading"><span class="chapter">02 / GERÇEK HAYAT</span><span class="chapter-icon">☾</span></div>
+        <h2>O meşhur otobüs durağı...</h2>
+        <p class="page-lead">Bir gün yaşadığım yere geldin. Akşam olmuş, hava kararmıştı. Sen beni otobüs durağında bekliyordun. Ben de heyecanla yanına geldim.</p>
+        <figure class="photo-card wide-photo static-photo-card">
+          <div class="static-photo-frame">
+            <img class="static-photo" src="assets/durak-anisi.jpg" alt="İlk buluşma: gece otobüs durağında bekleme anısı" data-placeholder="busStopPlaceholder">
+            <div class="photo-placeholder" id="busStopPlaceholder"><span>🌙🚌</span><strong>İlk buluşma fotoğrafı</strong><small>assets/durak-anisi.jpg dosyasını ekle</small></div>
+          </div>
+          <figcaption><span>İLK BULUŞMA</span><span>gece • otobüs durağı</span></figcaption>
+        </figure>
+        <div class="quote-card"><span class="quote-mark">“</span><p>AY SEN GÜZELMİŞSİN!</p><small>— İlk buluşmadan unutulmaz replik 😂</small></div>
+        <p class="page-lead last-line">Sonra kol kola girip benim eve doğru yürüdük. İnternet arkadaşlığımız artık gerçek bir anıya dönüşmüştü. 💗</p>
+      </section>
+
+      <!-- 3: Bamya -->
+      <section class="story-page" data-title="Bamya ve bazlama" id="page-3">
+        <div class="page-heading"><span class="chapter">03 / EV ZİYARETİ</span><span class="chapter-icon">🍲</span></div>
+        <h2>Gecenin yıldız menüsü.</h2>
+        <p class="page-lead">Kol kola eve geldik, oturduk, sohbet ettik. Ve tabii ki bu hikâyenin unutulmaz menüsü masadaydı:</p>
+        <div class="menu-board">
+          <div class="dish"><div class="dish-emoji">🍲</div><div><strong>BAMYA</strong><small>Gecenin başrolü</small></div></div>
+          <div class="plus-sign">+</div>
+          <div class="dish"><div class="dish-emoji">🫓</div><div><strong>BAZLAMA</strong><small>Menünün yıldızı</small></div></div>
+          <div class="menu-ribbon">ŞEFİN TAVSİYESİ: BİRLİKTE YEMEK 😂</div>
+        </div>
+        <figure class="photo-card food-photo static-photo-card">
+          <div class="static-photo-frame">
+            <img class="static-photo" src="assets/bamya-bazlama.jpg" alt="Bamya ve bazlama akşamından fotoğraf" data-placeholder="foodPhotoPlaceholder">
+            <div class="photo-placeholder" id="foodPhotoPlaceholder"><span>🍲 🫓</span><strong>Bamya ve bazlama anısı</strong><small>assets/bamya-bazlama.jpg dosyasını ekle</small></div>
+          </div>
+          <figcaption><span>BAMYA & BAZLAMA GECESİ</span><span>ev sıcaklığı ♡</span></figcaption>
+        </figure>
+        <div class="punchline"><span>Bir süre sonra...</span><strong>“Ben uyuyacağım.”</strong><small>Emine, daha yeni gelmiştin. 😭</small></div>
+      </section>
+
+      <!-- 4: Morning -->
+      <section class="story-page" data-title="Ertesi sabah" id="page-4">
+        <div class="page-heading"><span class="chapter">04 / YENİ GÜN</span><span class="chapter-icon">☀</span></div>
+        <h2>Sabah oldu, macera devam.</h2>
+        <p class="page-lead">Uyandık, hazırlandık, süslendik ve gezmeye çıktık. Bir gün önce Twitter'dan tanıdığın insanla ertesi sabah birlikte hazırlanıp dışarı çıkmak… Hayatın tatlı sürprizlerinden biri.</p>
+        <figure class="photo-card morning-photo static-photo-card">
+          <div class="static-photo-frame">
+            <img class="static-photo" src="assets/sabah-gezisi.jpg" alt="Birlikte hazırlanıp gezmeye çıktığınız sabah" data-placeholder="morningPhotoPlaceholder">
+            <div class="photo-placeholder" id="morningPhotoPlaceholder"><span>☀️👜</span><strong>Sabah gezisi anısı</strong><small>assets/sabah-gezisi.jpg dosyasını ekle</small></div>
+          </div>
+          <figcaption><span>ERTESİ SABAH</span><span>hazırız, çıkıyoruz!</span></figcaption>
+        </figure>
+        <div class="memory-note"><span>♡</span> İyi ki gelmişsin Aşk Bahçem. İyi ki o gün buluşmuşuz.</div>
+      </section>
+
+      <!-- 5: Gallery -->
+      <section class="story-page" data-title="Fotoğraf albümümüz" id="page-5">
+        <div class="page-heading"><span class="chapter">05 / ANI ALBÜMÜ</span><span class="chapter-icon">▧</span></div>
+        <h2>Biriktirdiğimiz küçük güzellikler.</h2>
+        <p class="page-lead">  VE DAHA BİRİKTİRECEĞİMİZ ANI VAR ONA GÖRE HE 💙</p>
+        <div class="gallery-grid">
+          <figure class="gallery-item"><div class="gallery-image"><img class="static-photo" src="assets/birlikte-1.jpg" alt="Birlikte fotoğrafınız 1" data-placeholder="galleryPhoto1Empty"><div class="gallery-empty" id="galleryPhoto1Empty">♡<small>assets/birlikte-1.jpg</small></div></div><figcaption>“İyi ki tanışmışız.”</figcaption></figure>
+          <figure class="gallery-item"><div class="gallery-image"><img class="static-photo" src="assets/birlikte-2.jpg" alt="Birlikte fotoğrafınız 2" data-placeholder="galleryPhoto2Empty"><div class="gallery-empty" id="galleryPhoto2Empty">✦<small>assets/birlikte-2.jpg</small></div></div><figcaption>“Daha çok anıya!”</figcaption></figure>
+          <figure class="gallery-item"><div class="gallery-image"><img class="static-photo" src="assets/birlikte-3.jpg" alt="Birlikte fotoğrafınız 3" data-placeholder="galleryPhoto3Empty"><div class="gallery-empty" id="galleryPhoto3Empty">☀<small>assets/birlikte-3.jpg</small></div></div><figcaption>“Best friend arşivi.”</figcaption></figure>
+        </div>
+        <p class="privacy-note">iYİ Kİ DOĞMUŞSUN ÇİÇEĞİM</p>
+      </section>
+
+      <!-- 6: Secret -->
+      <section class="story-page" data-title="Gizli mesaj" id="page-6">
+        <div class="page-heading"><span class="chapter">06 / SADECE SANA</span><span class="chapter-icon">♡</span></div>
+        <h2>Bir de sana sakladığım şey var...</h2>
+        <p class="page-lead">Bu bölüm herkese açık değil. Yani… siteyi açan herkes görebilir ama önce senin küçük bir butona basman gerekiyor. 🤫</p>
+        <div class="secret-envelope" id="secretEnvelope"><div class="envelope-sticker">♡</div><div class="envelope-lines"></div><div class="envelope-flap"></div><span>EMİNE'YE ÖZEL</span></div>
+        <button class="secondary-btn" id="revealSecretBtn">Gizli mesajı aç 🔐</button>
+        <div class="secret-note hidden" id="secretNote">
+          <span class="note-heart">♡</span>
+          <p>Emine, belki de hayatımızdaki en güzel insanlar hiç beklemediğimiz bir anda karşımıza çıkıyor. Sen benim karşıma bir Twitter mesajıyla çıktın ama kalbimde çok güzel bir yer edindin.</p>
+          <p>İyi ki benim arkadaşımsın. İyi ki varsın bestim. Daha yaşayacağımız çok anı var. 💙</p>
+          <span class="signature">— Seni seven arkadaşın</span>
+        </div>
+      </section>
+
+      <!-- 7: Birthday -->
+      <section class="story-page birthday-page" data-title="İyi ki doğdun Emine" id="page-7">
+        <div class="birthday-confetti" id="confettiLayer" aria-hidden="true"></div>
+        <div class="birthday-top">✦ BUGÜNÜN EN GÜZEL BİLDİRİMİ ✦</div>
+        <div class="cake">🎂</div>
+        <p class="eyebrow">BİR TWİTTER BİLDİRİMİYLE BAŞLAYAN DOSTLUĞA</p>
+        <h2 class="birthday-title">İYİ Kİ DOĞDUN<br><em>EMİNE!</em></h2>
+        <p class="birthday-subtitle">İYİ Kİ VARSIN BESTİM! 💙</p>
+        <p class="birthday-copy">Hayatıma girdiğin, benimle güldüğün ve güzel anılar biriktirdiğin için teşekkür ederim. Daha çok gezelim, daha çok gülelim, daha çok saçmalayalım. Twitter'da başlayan hikâyemizin nice güzel bölümleri olsun.</p>
+        <div class="countdown-card">
+          <label for="birthdayDate">Doğum gününü seç, birlikte geri sayalım</label>
+          <input type="date" id="birthdayDate">
+          <div class="countdown-result" id="countdownResult">Doğum günü tarihini seçince geri sayım burada görünecek. ♡</div>
+        </div>
+        <button class="primary-btn celebration-btn" id="celebrateBtn">Kutlamayı başlat! 🎉</button>
+        <div class="letter-wrap">
+          <div class="letter-closed" id="letterClosed"><span>💌</span><strong>Emine'ye bir mektup</strong><small>Açmak için aşağıdaki butona dokun.</small></div>
+          <button class="secondary-btn" id="openLetterBtn">Zarfı aç</button>
+          <article class="birthday-letter hidden" id="birthdayLetter">
+            <p class="letter-greeting">Canım Emine'm,</p>
+            <p>İyi ki Twitter'da karşılaşmışız. İyi ki o gün yanıma gelmişsin. Otobüs durağındaki ilk buluşmamız, “Ay sen güzelmişsin” demen, bamya ve bazlama maceramız… Hepsi benim için çok özel.</p>
+            <p>Sen benim en güzel tesadüflerimden birisin. Hayat sana hep kalbin kadar güzel şeyler getirsin. Yeni yaşında dilediğin her şey gerçek olsun.</p>
+            <p>İyi ki doğdun, iyi ki varsın. Seni çok seviyorum bestim! 💙</p>
+            <p class="letter-sign">Kocaman sevgilerle ♡</p>
+          </article>
+        </div>
+        <button class="text-btn" id="restartBtn">Hikâyeyi baştan yaşa ↺</button>
+      </section>
+    </div>
+
+    <nav class="story-nav" aria-label="Hikâye gezinme">
+      <button class="nav-btn back-btn" id="prevBtn" disabled>← Önceki</button>
+      <div class="dots-nav" id="dotsNav" aria-label="Bölümler">
+        <button class="dot active" data-go="0" aria-label="Başlangıç"></button>
+        <button class="dot" data-go="1" aria-label="Twitter"></button>
+        <button class="dot" data-go="2" aria-label="İlk buluşma"></button>
+        <button class="dot" data-go="3" aria-label="Bamya ve bazlama"></button>
+        <button class="dot" data-go="4" aria-label="Sabah"></button>
+        <button class="dot" data-go="5" aria-label="Fotoğraflar"></button>
+        <button class="dot" data-go="6" aria-label="Gizli mesaj"></button>
+        <button class="dot" data-go="7" aria-label="Doğum günü"></button>
+      </div>
+      <button class="nav-btn next-btn" id="nextBtn">Devam et <span>→</span></button>
+    </nav>
+
+    <footer class="site-footer">BİR BİLDİRİMLE BAŞLADI <span>♡</span> EMİNE'YE SEVGİYLE HAZIRLANDI</footer>
+  </main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
